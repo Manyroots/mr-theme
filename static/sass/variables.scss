@@ -1,5 +1,15 @@
+// ====================
 // lms variables
-
+/*
+  ManyRoots palette
+  http://www.colourlovers.com/palette/444487/Curiosity_Killed
+*/
+$color-mr-vichisua: #EFFFCD;
+$color-mr-hex: #DCE9BE;
+$color-mr-shadowdirt: #555152;
+$color-mr-eveningcloud: #2E2633;
+$color-mr-pinki: #99173C;
+// ====================
 // base
 $baseline: 20px;
 
@@ -23,3 +33,176 @@ $monospace: Monaco, 'Bitstream Vera Sans Mono', 'Lucida Console', monospace;
 $body-font-family: $sans-serif;
 //$serif: $georgia;
 
+// ====================
+
+// MISC: base fonts/colors
+$base-font-color: rgb(60,60,60);
+$baseFontColor: rgb(60,60,60);
+$base-font-color: rgb(60,60,60);
+$lighter-base-font-color: rgb(100,100,100);
+$very-light-text: #fff;
+
+// ====================
+
+// COLORS - utility
+$transparent: rgba(0,0,0,0); // used when color value is needed for UI width/transitions but element is transparent
+
+// COLORS
+$black: rgb(0,0,0);
+$black-t0: rgba($black, 0.125);
+$black-t1: rgba($black, 0.25);
+$black-t2: rgba($black, 0.5);
+$black-t3: rgba($black, 0.75);
+
+$white: rgb(255,255,255);
+$white-t0: rgba($white, 0.125);
+$white-t1: rgba($white, 0.25);
+$white-t2: rgba($white, 0.5);
+$white-t3: rgba($white, 0.75);
+
+$gray: rgb(127,127,127);
+
+
+$pink: rgb(182,37,103);
+$pink-s1: saturate($pink,15%);
+$pink-s2: saturate($pink,30%);
+$pink-s3: saturate($pink,45%);
+$pink-u1: desaturate($pink,15%);
+$pink-u2: desaturate($pink,30%);
+$pink-u3: desaturate($pink,45%);
+
+$red: rgb(178, 6, 16);
+$red-s1: saturate($red,15%);
+$red-s2: saturate($red,30%);
+$red-s3: saturate($red,45%);
+$red-u1: desaturate($red,15%);
+$red-u2: desaturate($red,30%);
+$red-u3: desaturate($red,45%);
+
+$green: rgb(37, 184, 90);
+
+$green-s1: saturate($green,15%);
+$green-s2: saturate($green,30%);
+$green-s3: saturate($green,45%);
+$green-u1: desaturate($green,15%);
+$green-u2: desaturate($green,30%);
+$green-u3: desaturate($green,45%);
+
+// TODO: both blue and yellow variables differ from CMS rgb value, need to confirm change to CMS variable is ok in current platform uses before switching.
+$blue: $color-mr-shadowdirt;
+$yellow: rgb(255, 252, 221);
+
+// COLORS: old variables
+$error-red: rgb(253, 87, 87);
+$danger-red: rgb(212, 64, 64);
+$light-gray: rgb(221, 221, 221);
+$dark-gray: rgb(51, 51, 51);
+$border-color: rgb(200, 200, 200);
+$sidebar-color: rgb(246, 246, 246);
+$outer-border-color: rgb(170, 170, 170);
+$light-gray: #ddd;
+
+// used by descriptor css
+$lightGrey: #edf1f5;
+$darkGrey: #8891a1;
+
+
+// edx.org marketing site variables
+$m-gray: #8A8C8F;
+$m-gray-l1: #97999B;
+$m-gray-l2: #A4A6A8;
+$m-gray-l3: #B1B2B4;
+$m-gray-l4: #F5F5F5;
+$m-gray-d1: #7D7F83;
+$m-gray-d2: #707276;
+$m-gray-d3: #646668;
+$m-gray-d4: #050505;
+$m-gray-t0: rgba($m-gray,0.125);
+$m-gray-t1: rgba($m-gray,0.25);
+$m-gray-t2: rgba($m-gray,0.50);
+$m-gray-t3: rgba($m-gray,0.75);
+
+$m-blue: #2E2633;
+$m-blue-l1: #39313f;
+$m-blue-l2: #524a59;
+$m-blue-l3: #6f6579;
+$m-blue-d1: #555152;
+$m-blue-d2: #494546;
+$m-blue-d3: #3c3839;
+$m-blue-d4: #2c2829;
+$m-blue-t0: rgba($m-blue,0.125);
+$m-blue-t1: rgba($m-blue,0.25);
+$m-blue-t2: rgba($m-blue,0.50);
+$m-blue-t3: rgba($m-blue,0.75);
+
+$m-pink: #B52A67;
+$m-pink-l1: #CA2F73;
+$m-pink-l2: #D33F80;
+$m-pink-l3: #D7548E;
+$m-pink-d1: #A0255B;
+$m-pink-d2: #8C204F;
+$m-pink-d3: #771C44;
+
+$m-green: rgb(0, 136, 1);
+$m-green-s1: rgb(96, 188, 97);
+$m-green-t0: rgba($m-green,0.125);
+$m-green-t1: rgba($m-green,0.25);
+$m-green-t2: rgba($m-green,0.50);
+$m-green-t3: rgba($m-green,0.75);
+
+// ====================
+
+// shadows
+$shadow: rgba(0,0,0,0.2);
+$shadow-l1: rgba(0,0,0,0.1);
+$shadow-l2: rgba(0,0,0,0.05);
+$shadow-d1: rgba(0,0,0,0.4);
+$shadow-d2: rgba($black, 0.6);
+
+// ====================
+
+$m-base-font-size: em(15);
+
+$base-font-color: rgb(60,60,60);
+$baseFontColor: rgb(60,60,60);
+$lighter-base-font-color: rgb(100,100,100);
+$text-color: $dark-gray;
+
+$dark-trans-bg: rgba(0, 0, 0, .75);
+
+$body-bg: rgb(250,250,250);
+$container-bg: $white;
+
+$header-bg: $white;
+$courseware-header-bg: transparent;
+$footer-bg: $white;
+$courseware-footer-border: none;
+$courseware-footer-shadow: none;
+$courseware-footer-margin: 0px;
+$courseware-border-bottom-color: #44a2de;
+$courseware-button-border-color: #e6e6e6;
+$courseware-hover-color: #333435;
+$courseware-navigation-color: #009ee7;
+
+// ====================
+
+// STATE: verified
+$verified-color-lvl1: $m-green;
+$verified-color-lvl2: $m-green-l1;
+$verified-color-lvl3: $m-green-l2;
+$verified-color-lvl4: $m-green-l3;
+$verified-color-lvl5: $m-green-l4;
+
+// STATE: professional ed
+$professional-color-lvl1: $m-pink;
+$professional-color-lvl2: $m-pink-l1;
+$professional-color-lvl3: $m-pink-l2;
+$professional-color-lvl4: $m-pink-l3;
+$professional-color-lvl5: $m-pink-l4;
+
+// STATE: honor code
+$honorcode-color-lvl1: rgb(50, 165, 217);
+
+
+// STATE: audit
+$audit-color-lvl1: $light-gray;
