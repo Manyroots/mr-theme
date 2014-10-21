@@ -1,1 +1,1 @@
-foo do -> console.log("HOLAAAAA!")
+do f = -> console.log 'this runs right away'
