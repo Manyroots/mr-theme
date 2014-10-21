@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "mrtheme.js",
+  "sourceRoot": "",
+  "sources": [
+    "mrtheme.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,GAAA,CAAO,CAAA,SAAA,GAAA;WAAG,OAAO,CAAC,GAAR,CAAY,WAAZ,EAAH;EAAA,CAAA,CAAH,CAAA,CAAJ,CAAA,CAAA;AAAA"
+}
