@@ -19,7 +19,11 @@
 <section class="home">
   <header>
     <div class="outer-wrapper">
-
+        <div class="galleria">
+            <img src="http://wallpoper.com/images/00/37/19/96/makoto-shinkai_00371996.png">
+            <img src="http://wallpoper.com/images/00/42/74/11/makoto-shinkai_00427411.jpg">
+            <img src="http://wallpoper.com/images/00/42/65/65/makoto-shinkai_00426565.jpg">
+        </div>
     </div>
   </header>
   <section class="mark-text-courses">
@@ -91,5 +95,8 @@
 % endif
 <script type="application/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/galleria.min.js"></script>
 <script>
-    if (Galleria) { console.log("CARGADO LA GALERIA") }
+    if (Galleria) {
+
+        Galleria.run('.galleria');
+    }
 </script>
