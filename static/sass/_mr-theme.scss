@@ -1,0 +1,241 @@
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
+//Main Color Variables
+$green-main-color: #64B13C;
+$light-color : #397f14;
+
+//-------------------------
+//	GENERAL STYLES
+//-------------------------
+body,input,textarea,select {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 300;
+  font-size: 18pt;
+  line-height: 1.75em;
+  color: #39454b;
+  letter-spacing: 0.5px;
+
+}
+
+.home>header{
+
+  max-width: 1180px;
+  min-width: 760px;
+  margin: 0 auto;
+  border-bottom: none;
+  background-color: #FFF;
+}
+
+
+.home>.container, .home>section.outside-app{
+  background-color: #e4e4e4;
+  -moz-box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.1),inset 0 -8px 8px -8px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.1),inset 0 -8px 8px -8px rgba(0,0,0,0.1);
+  box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.1),inset 0 -8px 8px -8px rgba(0,0,0,0.1);
+}
+
+.highlighted-courses .courses .course .info .cover-image img, .find-courses .courses .course .info .cover-image img{
+  height : 100%;
+}
+
+p {
+  color: #3c3c3c;
+
+  margin: 0px;
+}
+
+
+.content-wrapper{
+  max-width: 1180px;
+}
+
+.course-info .container, .course-info section.outside-app{
+  padding: 0;
+}
+
+//-----------------------
+//	HEADER BANNER
+//-----------------------
+.home>header .outer-wrapper{
+  padding: 170px 10px 0px;
+}
+.marketing-text {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+  /* padding: 20px; */
+  /* margin-top: 44px; */
+  height: 100px;
+  color: white;
+  font-variant: small-caps;
+  font-weight: bolder;
+  /* text-shadow: 0 0 0px #f1f1f1; */
+  -webkit-font-smoothing: antialiased;
+}
+.home>header .title>hgroup h1 {
+  font-size: 21px;
+}
+.home>header .media .hero{
+  background-size: 100%;
+}
+
+header.global-new{
+  border-bottom: 2px solid #64B13C;
+}
+
+.highlighted-courses .courses .course .status, .find-courses .courses .course .status{
+  background: $green-main-color;
+}
+
+.home>header .title>hgroup h2, .home>header .title>hgroup section.outside-app h1, section.outside-app .home>header .title>hgroup h1{
+  font-size: 18px;
+}
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware{
+  box-shadow: 0 2px 1px 0 #549132;
+  background: #64b13c;
+  color: #fff;
+}
+
+
+
+//-------------------------
+//	COURSEWARE LI
+//-------------------------
+header.global-new .nav-global li a, header.global-new .nav-courseware li a{
+  color: #64b13c;
+}
+
+
+//-----------------
+//  CSS BG Images
+//-----------------
+$homepage-bg-image: url('../themes/mr-theme/images/asset.jpg');
+
+$login-banner-image: none;
+$register-banner-image: none;
+
+$video-thumb-url: '../themes/mr-theme/images/mrlogo.png';
+
+//-------------------
+//	FOOTER
+//-------------------
+.wrapper-footer footer .colophon{
+  font-size: 12px;
+}
+
+.references > span {
+  position: relative;
+  float: right;
+}
+
+//-----------------
+//  Theme Element Assignments
+//-----------------
+
+.view-register header.global-new .cta-register{
+  border-bottom-color: #397f14;
+}
+
+$link-color: $green-main-color;
+$link-color-d1: $green-main-color;
+$link-hover: $light-color;
+$site-status-color: $green-main-color;
+
+$header-graphic-super-color: $green-main-color;
+$header-graphic-sub-color: $light-color;
+
+$header-link-color: $green-main-color;
+$header-link-hover: $light-color;
+
+
+
+$shadow-color: $gray;
+
+//-------------------------
+// TOS ABOUT
+//-------------------------
+.container.about{
+  line-height: 2em;
+
+}
+
+//---------------
+// HOME
+//---------------
+.highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{
+  bottom: 0;
+  right: 0;
+}
+.mark-text-courses{
+  margin: 0 auto;
+  position: relative;
+  width: 1180px;
+  text-align: center;
+  padding: 10px;
+  color: #64b13c;
+  font-size: 20px;
+  text-shadow: 0 0 1px #CCC;
+}
+.courses-arrow{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #ffffff transparent transparent transparent;
+  line-height: 0px;
+  _border-color: #ffffff #000000 #000000 #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+  margin: 0 auto;
+}
+
+.actions{
+  margin: 0 auto;
+  width: 1180px;
+  display: block;
+  padding-top: 15px;
+  color: #64b13c;
+}
+
+/* Statics pages */
+#careers, #contact {
+  text-align: center;
+}
+
+//-------------------------------
+// COURSE DETAILS
+//-------------------------------
+
+.inner-wrapper{
+  padding-left: 25px;
+}
+
+.details nav{
+  padding-left: 25px;
+}
+
+.intro-inner-wrapper{
+  border: none !important;
+}
+
+.course-info header.course-profile{
+  border-bottom: 1px solid #CCC;
+}
+
+#reg_then_add_to_cart{
+  background: #64b13c;
+  border: 1px solid #CCC;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+#reg_then_add_to_cart:hover{
+  background: #3D782A;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .media .hero{
+  border: 1px solid #CCC;
+}
+
+header.global .nav-courseware li .cta:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, header.global .nav-courseware li .cta:active, .view-partial-mktgregister .action.action-register:active, .view-partial-mktgregister .action.access-courseware:active, header.global .nav-courseware li .cta:focus, .view-partial-mktgregister .action.action-register:focus, .view-partial-mktgregister .action.access-courseware:focus{
+  background: #3D782A;
+}
