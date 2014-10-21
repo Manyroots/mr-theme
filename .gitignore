@@ -1,2 +1,5 @@
 # build directory for Sencha (ExtJS) projects
 .idea/
+
+# archives
+bk.scss
