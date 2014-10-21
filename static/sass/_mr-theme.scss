@@ -19,10 +19,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   /* margin-top: 1px; */
   -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+}
+// ====================
+
+// Courses meta info
+.highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{
+  bottom: 0;
+  right: 0;
+}
+// ====================
+// Courses About
+.course-info header.course-profile .intro-inner-wrapper{
+  max-width: 1118px;
 }
 
 /****************************************************************************************************
-*   Stanford Theming File
+*   ManyRoots
 *
 *   Contains all the theme color definitions for the Stanford Open Source MOOC Project
 *
